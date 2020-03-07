@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+
+<body>
+	<form action="HTML_hw2.html" method="get"> 
+	<header>
+		<h1>모같코 지원서</h1>
+		<h2>(*모든 입력란은 필수입력입니다.)</h2>
+	</header>
+
+	<div>
+		<h3>현재 하시고 있는 일은 무엇인가요?</h3>
+		<input type="radio" name="position" value="student" checked="checked" required/>대학생(재학생,휴학생)<br />
+		<input type="radio" name="position" value="business">직장인<br />
+		<input type="radio" name="position" value="applicants">취업준비생<br />
+		<input type="radio" name="position" value="other">기타...<br />
+		<br />
+	</div>
+
+		<div>
+		<h3>간단하게 자기소개 적어주세요^^(최대 10자)</h3>
+		<h4>(이름,성별,취미 등)</h4>
+		<input type="text" value="짧게" style="color: grey;" size="40" maxlength="10" required/><br />
+	</div>
+
+	<div>
+		<h3>나이가 어떻게 될까요?(*숫자만 가능하게, 입력하지 않았을 때 희미하게 글자 나오기)</h3>
+		<h4>예)20</h4>
+		<input type="number" size="20" value="20" style="color: grey;" required/><br />
+		<br />
+	</div>
+
+	<div>
+		<h3>사는 곳이 어떻게 될까요?</h3>
+		<h4>(근처 지하철역 또는 00구 00동 이라고 적어주시면 됩니다)</h4>
+		<input type="text" size="50" value="집" style="color: grey;" required/><br />
+		<br />
+	</div>
+
+		<div>
+		<h3>연락처</h3>
+		<h4>예)01012712799</h4>
+		<input type="text" size="50" value="01012712799" style="color: grey;" required/><br />
+		<br />
+	</div>
+
+		<div>
+		<h3>이메일</h3>
+		<h4>예)aaa@naver.com *이메일 형식으로만 입력가능</h4>
+		<input type="email" size="50" value="aaa@naver.com" style="color: grey;" required/><br />
+		<br />
+	</div>
+
+		<div>
+		<h3>하고 싶은 말</h3>
+		<textarea rows="20" cols="50" required /></textarea>
+		<br />
+	</div>
+
+    <footer>
+    	<hr />
+    	<input type="submit" value="지원서 제출" />
+    </footer>
+	
+</form>
+</body>
+
+</html>
