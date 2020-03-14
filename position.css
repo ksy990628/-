@@ -1,0 +1,74 @@
+.wrap{
+	background-color: slategray;
+	padding: 0.5rem;
+	width: 300px;
+	box-sizing: border-box;
+	overflow: hidden;
+	/*overflow는 float된 자기 자식을 알아보기 위해 'auto'나 ;hidden'으로*/
+}
+
+.wrap > div {
+	background-color: #333;
+	width: 50px;
+	height: 50px;
+	margin: 0.5rem;
+	color: #fff;
+	float: left;
+}
+
+
+footer{
+	width: 300px;
+	height: 100px;
+	background-color: #bb3;
+	margin-top: 0.5rem;
+	clear:left; /*left에 있는 float(float: left;)를 인정하겠다, 이 경우에
+	clear:both;도 가능*/
+}
+
+
+
+
+
+
+
+
+
+
+
+/*.wrap{
+	height: 3000px;
+	position: relative;
+}
+
+.wrap > div{
+	border:1px solid gray;
+	width:100px;
+	height:100px;
+	margin:10px;
+	float: left;
+	/*float끼리는 겹치지 않음*/
+}
+
+/*.wrap>div:nth-child(3){
+	color: red;
+	position: relative;
+	top: 40px;
+	left: 40px;
+}
+
+.wrap>div:nth-child(4){
+	position: absolute;
+	 absolute값을 주게 되면 다른 요소들이 이 부분을 무시하고 다시 자리를 잡게 됨
+	absolute는 기준점을 잡으려고 하는데, position:static이 아닌 곳을 기준점으로 잡음
+	top:20px;
+	left: 20px;
+}
+
+.wrap > div:nth-child(2){
+	position: fixed; scroll이 생길 때 움직이지 않는다
+	color: red;
+	float: left;
+	float속성은 '붕 뜨게'하는 속성이라 다른 요소들이 밀고 올라옴
+}
+*/

@@ -1,0 +1,14 @@
+.wrap{
+	background-color:slategray;
+	height:500px;
+	display: flex;
+	flex-direction:row;
+	align-items: center; 
+}
+
+.wrap > div{
+	flex-grow: 1;
+	margin: 0.2rem;
+	height: 200px;
+	background-color: skyblue;
+}
