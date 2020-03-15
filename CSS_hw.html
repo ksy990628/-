@@ -7,12 +7,42 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 	<style>
-      .icon {
-        margin: 70px 70px;
-        text-align: center;
-        font-size: 50px;
-        color: grey;
+     .wrap{
+     	border: 2px solid white;
+     	width: 350px;
+     	height:350px;
+     	margin-left: 600px;
+     	margin-top: 200px;
+     
+     }
+
+	  #name{
+	  	color:white;
+	  	text-align: center;
+	  	margin-top: 100px;
+	  }
+	  #info{
+	  	color: white;
+	  	text-align: center;
+	  	margin-top: 20px;
+	  }
+      .icon1{
+        font-size: 30px;
+        color: white;
+        margin-left: 130px;
       }
+      .icon2{
+        font-size: 30px;
+        color: white;
+        margin-left: 190px;  
+        margin-top: -40px;
+        transition: all ease 5s;
+        transform: scale(0.9);
+      }
+      .icon2:hover{
+      	transform: rotate(180deg);
+      }
+
       body{
       	background-image: url('사진/노을드래곤.jpg');
        	background-size:1620px 780px;
@@ -24,9 +54,20 @@
 </head>
 
 <body>
-	<a href="https://www.instagram.com/boilingpeach_ksy/">
-	 <p class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></p>
+	<div class="wrap">
+
+	<h1 id="name">Seo Yeong Kim</h1>
+	<h5 id="info">Ewha womans Univ.<br/> Computer Science & Engineering</h5>
+
+	<a href="https://www.instagram.com/boilingpeach_ksy/" target="_blank">
+	<div class="icon1"><i class="fa fa-instagram" aria-hidden="true"></i></div>
 	</a>
+
+	<a href="https://github.com/ksy990628" target=")_blank">
+	<div class="icon2"><i class="fa fa-heart"></i></div></a>
+
+     </div>
+
 
 </body>
 </html>
