@@ -7,43 +7,39 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 	<style>
+     a:link {text-decoration: none; color: white;}
+     a:visited {text-decoration: none; color: white;}
+     a:active {text-decoration: none; color: white;}
+     a:hover {text-decoration: underline; color: white;}
+
      .wrap{
      	border: 2px solid white;
      	width: 350px;
      	height:350px;
-     	margin-left: 600px;
-     	margin-top: 200px;
-     
+     	margin: 200px 600px 200px 600px ;     
      }
 	  #name{
 	  	color:white;
 	  	text-align: center;
-	  	margin-top: 100px;
+	  	margin-top: 70px;
 	  }
 	  #info{
 	  	color: white;
 	  	text-align: center;
-	  	margin-top: 20px;
+	  	margin-top: 40px;
 	  }
-      .icon1{
-        font-size: 30px;
-        color: white;
-        margin-left: 130px;
-      }
-      .icon2{
-        font-size: 30px;
-        color: white;
-        margin-left: 190px;  
-        margin-top: -40px;
-        transition: all ease 5s;
+	  .icon{
+	  	font-size: 30px;
+	  	margin: 30px 0px 0px 115px;
+	  	transition: all ease 5s;
         transform: scale(0.9);
-      }
-      .icon2:hover{
-      	transform: rotate(180deg);
+	  }
+      .icon:hover{
+      	transform: rotate(360deg);
       }
       body{
       	background-image: url('사진/노을드래곤.jpg');
-       	background-size:1620px 780px;
+       	background-size:cover;
        	background-repeat:no-repeat; 
       }
     </style>
@@ -55,14 +51,15 @@
 	<div class="wrap">
 
 	<h1 id="name">Seo Yeong Kim</h1>
-	<h5 id="info">Ewha womans Univ.<br/> Computer Science & Engineering</h5>
+	<h5 id="info">Ewha Womans Univ.<br/> Computer Science & Engineering</h5>
 
-	<a href="https://www.instagram.com/boilingpeach_ksy/" target="_blank">
-	<div class="icon1"><i class="fa fa-instagram" aria-hidden="true"></i></div>
-	</a>
-
+    <div class="icon">
+	<a href="https://www.instagram.com/boilingpeach_ksy/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    &nbsp&nbsp&nbsp&nbsp
 	<a href="https://github.com/ksy990628" target=")_blank">
-	<div class="icon2"><i class="fa fa-heart"></i></div></a>
-     </div>
+	<i class="fa fa-heart"></i></a>
+    </div>
+
+</div>
 </body>
 </html>
